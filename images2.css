@@ -1,0 +1,48 @@
+body {
+	background-color: #33479d;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	display: flex;
+	justify-content: start;
+}
+	.images {
+		margin-top: 90px;
+		vertical-align: bottom;
+
+		display: flex;
+		justify-content: space-around;
+	}
+
+		#image1{
+			flex: 1;
+
+			position: relative;
+			z-index: 1;
+		}
+
+		#image2{
+			flex:1;
+
+			position: relative;
+    		z-index: 2;
+
+    		transform: (-100,0);
+		}
+
+		.image3{
+			flex:1;
+
+			position: absolute;
+    		z-index: 3;
+		}
+
+		.image{
+			flex:1;
+
+			position: absolute;
+    		z-index: 4;
+		}
+		}
