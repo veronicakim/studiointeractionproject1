@@ -6,7 +6,7 @@ h1{
 
 .veronica {
 	text-align: left;
-	color: #f79e89;
+	color: #e7785d;
 	font-size: 65px;
 	margin: 20px;
 }
@@ -18,15 +18,18 @@ h1{
 	margin: 20px;
 }
 
-		a{
-			color:white;
-		}
-
-		a:hover { color:#ffcf3a; }
-
 .text{
 	margin-top: 60px;
 	margin-bottom: 60px;
 	margin-left: 50px;
 	margin-right: 50px;
 }
+
+	#link1 { color:#e7785d; }
+	#link1:hover { color:#f5cf5d; }
+
+	#link2 { color:white; }
+	#link2:hover { color:#f5cf5d; }
+
+	#link3 { color:white; }
+	#link3:hover { color:#f5cf5d; }

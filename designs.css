@@ -1,4 +1,4 @@
-body {background-color: #f79e89;}
+body {background-color: #e7785d;}
 
 p {
 	font-family: 'Raleway', sans-serif;
@@ -20,7 +20,7 @@ p {
 			flex:1;
 		}
 			.textbox1 {
-				background-color: #ffcf3a;
+				background-color: #f5cf5d;
 
 				height: 550px;
 				width: 450px;
@@ -30,10 +30,12 @@ p {
 				top: 68px;
 			}
 				#text1 {
-					font-size: 18px;
+					font-size: 20px;
 					color: white;
 
-					padding: 40px;
+					padding-top: 10px;
+					padding-right: 25px;
+					padding-left: 25px;
 				}
 
 			.pic1 {
@@ -66,10 +68,12 @@ p {
 				top: 68px;
 			}
 				#text2 {
-					font-size: 18px;
-					color: #f79e89;
+					font-size: 20px;
+					color: #e7785d;
 
-					padding: 40px;
+					padding-top: 10px;
+					padding-right: 25px;
+					padding-left: 25px;
 				}
 
 			.pic2 {
@@ -102,10 +106,12 @@ p {
 				top: 68px;
 			}
 				#text3 {
-					font-size: 18px;
+					font-size: 20px;
 					color: white;
 
-					padding: 40px;
+					padding-top: 10px;
+					padding-right: 25px;
+					padding-left: 25px;
 				}
 
 			.pic3 {
