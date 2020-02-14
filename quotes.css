@@ -1,4 +1,4 @@
-body {background-color: white;
+body {background-color: #ffcf3a;
 	/*background-image: url("paper.jpg")*/;
 }
 
@@ -29,7 +29,7 @@ h1{
 	}
 
 		#quote1 {
-			color: #ffcf3a;
+			color: #33479d;
 			padding-bottom: 15px;
 			text-align: left;
 		}
@@ -38,7 +38,7 @@ h1{
 			}
 
 		#quote2 {
-			color: #f79e89;
+			color: white;
 			padding-bottom: 15px;
 			text-align: right;
 		}
@@ -47,7 +47,7 @@ h1{
 			}
 
 		#quote3 {
-			color: #33479d;
+			color: #f79e89;
 			padding-bottom: 15px;
 			text-align: left;
 		}
@@ -56,7 +56,7 @@ h1{
 			}
 
 		#quote4 {
-			color: #f79e89;
+			color: #33479d;
 			padding-bottom: 15px;
 			text-align: right;
 		}
@@ -65,7 +65,7 @@ h1{
 			}
 
 		#quote5 {
-			color: #ffcf3a;
+			color: white;
 			text-align: left;
 		}
 			#quote5:hover {
