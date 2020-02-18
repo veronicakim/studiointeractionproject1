@@ -1,4 +1,22 @@
-body {background-color: #f5cf5d;}
+@keyframes change-background {
+      0% {
+        background: #f5cf5d;
+      }
+      30% {
+        background: #e7785d;
+      }
+      60% {
+        background: #33479d;
+      }
+      100% {
+        background: #f5cf5d;
+      }
+    }
+
+body {	
+	background-color: #f5cf5d;
+	animation: change-background 6s ease infinite;
+}
 
 .container {
 	display: flex;
@@ -26,7 +44,7 @@ body {background-color: #f5cf5d;}
 				margin-bottom: 25px;
 			}
 			.box1 {
-				background-color: white;
+				background-color: #f5cf5d;
 				height:600px;
 				width:860px;
 
@@ -35,6 +53,8 @@ body {background-color: #f5cf5d;}
 
 				margin-top: 50px;
 				margin-bottom: 25px;
+
+				transition: opacity 0.2s;
 			}
 				.box1:hover {
 					opacity: 0;
@@ -62,6 +82,8 @@ body {background-color: #f5cf5d;}
 
 				margin-top: 25px;
 				margin-bottom: 25px;
+
+				transition: opacity 0.2s;
 			}
 				.box2:hover {
 					opacity: 0;
@@ -90,6 +112,8 @@ body {background-color: #f5cf5d;}
 
 				margin-top: 25px;
 				margin-bottom: 50px;
+
+				transition: opacity 0.2s;
 			}
 				.box3:hover {
 					opacity: 0;

@@ -25,11 +25,20 @@ h1{
 	margin-right: 50px;
 }
 
-	#link1 { color:#e7785d; }
+	#link1 {
+		color:#e7785d;
+		transition: color 0.2s;
+	}
 	#link1:hover { color:#f5cf5d; }
 
-	#link2 { color:white; }
+	#link2 { 
+		color:white;
+		transition: color 0.2s;
+	}
 	#link2:hover { color:#f5cf5d; }
 
-	#link3 { color:white; }
+	#link3 {
+		color:white;
+		transition: color 0.2s;
+	}
 	#link3:hover { color:#f5cf5d; }

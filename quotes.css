@@ -11,13 +11,17 @@ h1{
 	display: flex;
 }
 
+	.container1 {
+		flex:1;
+		display: flex;
+	}
+
+	.container3 {
+		flex:2;
+		display: flex;
+	}
+
 .container2 {
-	flex:4;
-
-	display: flex;
-}
-
-.container1 {
 	flex: 6;
 
 	display: flex;
@@ -26,10 +30,10 @@ h1{
   	justify-content: space-between;
   	align-items: flex-start;
 
-  	margin-top: 60px;
+  	margin-top: 80px;
 	margin-bottom: 60px;
-	margin-left: 50px;
-	margin-right: 50px;
+	/*margin-left: 50px;
+	margin-right: 50px;*/
 }
 
 	.quotes {
@@ -38,13 +42,20 @@ h1{
 		font-size: 16px;
 	}
 
-		.quote1 {
+		.quote1  {
 			color: white;
 			padding-bottom: 25px;
 			text-align: left;
+
+			transition: font-size 0.2s;
 		}
-			.quote1:hover {
-				font-size: 30px;
+
+		#quotelink1 {
+			color: white;
+			transition: font-size 0.2s;
+		}
+			#quotelink1:hover {
+				font-size: 50px;
 				color: #33479d;
 			}
 
@@ -52,9 +63,11 @@ h1{
 			color: white;
 			padding-bottom: 25px;
 			text-align: left;
+
+			transition: font-size 0.2s;
 		}
 			.quote2:hover {
-				font-size: 30px;
+				font-size: 25px;
 				color: #e7785d;
 			}
 			#author2 {
@@ -66,11 +79,20 @@ h1{
 			color: white;
 			padding-bottom: 25px;
 			text-align: left;
+			transition: font-size 0.2s;
 		}
 			.quote3:hover {
-				font-size: 30px;
+				font-size: 25px;
 				color: #33479d;
 			}
+				#quotelink3 {
+					color: white;
+					transition: font-size 0.2s;
+				}
+				#quotelink3:hover {
+					font-size: 50px;
+					color: #33479d;
+				}
 			#author3 {
 				font-style: italic;
 				font-size: 30px;
@@ -80,9 +102,11 @@ h1{
 			color: white;
 			padding-bottom: 25px;
 			text-align: left;
+
+			transition: font-size 0.2s;
 		}
 			.quote4:hover {
-				font-size: 30px;
+				font-size: 25px;
 				color: #e7785d;
 			}
 			#author4 {
@@ -94,11 +118,20 @@ h1{
 			color: white;
 			padding-bottom: 25px;
 			text-align: left;
+			transition: font-size 0.2s;
 		}
 			.quote5:hover {
-				font-size: 30px;
+				font-size: 25px;
 				color: #33479d;
 			}
+				#quotelink5 {
+					color: white;
+					transition: font-size 0.2s;
+				}
+				#quotelink5:hover {
+					font-size: 50px;
+					color: #33479d;
+				}
 			#author5 {
 				font-style: italic;
 				font-size: 30px;

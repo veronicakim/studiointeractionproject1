@@ -1,7 +1,24 @@
+@keyframes change-background {
+      0% {
+        background: #33479d;
+      }
+      30% {
+        background: #f5cf5d;
+      }
+      60% {
+        background: #e7785d;
+      }
+      100% {
+        background: #33479d;
+      }
+    }
+
 body {
 	background-color: #33479d;
 	padding: 0px;
 	margin: 0px;
+
+	animation: change-background 10s ease infinite;
 }
 
 .container {
@@ -25,49 +42,12 @@ body {
 	a {
 		opacity: 1;
 
+		transition: opacity 0.2s;
 	}
 
 	a:hover{
 		opacity: 0.25;
 	}
-
-	/*a {
-	  display: inline-block;
-	  position: relative;
-	  color: #333333;
-	  text-decoration: none;
-	  padding: 0.2em 0.05em;
-	  border-bottom: 2px solid #333333;
-	}
-
-	a:hover {
-	  color: #efefef;
-	}
-
-	a:after {
-	  content: '';
-	  display: block;
-	  position: absolute;
-	  top: 100%;
-	  right: 0;
-	  bottom: 0;
-	  left: 0;
-	  background: #333333;
-	  z-index: -1;
-	  transition: all 0.1s cubic-bezier(0.000, 0.590, 1.000, 0.260);
-	}
-
-	a:hover:after {
-	  content: '';
-	  display: block;
-	  position: absolute;
-	  top: 0;
-	  right: 0;
-	  bottom: 0;
-	  left: 0;
-	  background: #333333;
-	  z-index: -1;
-	}*/
 
 		.image1{
 			flex:1;

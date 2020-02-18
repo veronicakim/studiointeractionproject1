@@ -29,13 +29,21 @@ p {
 				z-index: 0;
 				top: 68px;
 			}
-				#text1 {
-					font-size: 20px;
-					color: white;
+				#title1 {
+					font-style: italic;
 
-					padding-top: 10px;
+					font-size: 35px;
+					color: white;
 					padding-right: 25px;
-					padding-left: 25px;
+					padding-left: 30px;
+					margin-bottom: 10px;
+					margin-top: 28px;
+				}
+				#text1 {
+					font-size: 18px;
+					color: white;
+					padding-right: 55px;
+					padding-left: 50px;
 				}
 
 			.pic1 {
@@ -46,6 +54,8 @@ p {
 				z-index: 1;
 
 				padding-right: 10px;
+
+				transition: opacity 0.3s;
 			}
 				.pic1:hover {
 					opacity: 0;
@@ -67,13 +77,21 @@ p {
 				z-index: 0;
 				top: 68px;
 			}
-				#text2 {
-					font-size: 20px;
-					color: #e7785d;
+				#title2 {
+					font-style: italic;
 
-					padding-top: 10px;
+					font-size: 35px;
+					color: #e7785d;
 					padding-right: 25px;
-					padding-left: 25px;
+					padding-left: 30px;
+					margin-bottom: 20px;
+					margin-top: 28px;
+				}
+				#text2 {
+					font-size: 18px;
+					color: #e7785d;
+					padding-right: 55px;
+					padding-left: 50px;
 				}
 
 			.pic2 {
@@ -85,6 +103,8 @@ p {
 
 				position: relative;
 				z-index: 1;
+
+				transition: opacity 0.3s;
 			}
 				.pic2:hover {
 					opacity: 0;
@@ -105,13 +125,21 @@ p {
 				z-index: 0;
 				top: 68px;
 			}
-				#text3 {
-					font-size: 20px;
-					color: white;
+				#title3 {
+					font-style: italic;
 
-					padding-top: 10px;
+					font-size: 35px;
+					color: white;
 					padding-right: 25px;
-					padding-left: 25px;
+					padding-left: 30px;
+					margin-bottom: 20px;
+					margin-top: 28px;
+				}
+				#text3 {
+					font-size: 18px;
+					color: white;
+					padding-right: 55px;
+					padding-left: 50px;
 				}
 
 			.pic3 {
@@ -122,6 +150,8 @@ p {
 
 				position: relative;
 				z-index: 1;
+
+				transition: opacity 0.3s;
 			}
 				.pic3:hover {
 					opacity: 0;
