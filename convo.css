@@ -42,3 +42,9 @@ h1{
 		transition: color 0.2s;
 	}
 	#link3:hover { color:#f5cf5d; }
+
+	#outsidelink {
+		color:white;
+		transition: color 0.2s;
+	}
+	#outsidelink:hover { color:#f5cf5d; }
